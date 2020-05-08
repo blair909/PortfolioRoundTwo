@@ -36,6 +36,13 @@ p{
     padding: 0px;
     margin: 0px 0.5em 0.75em 0px;
 }
+i{
+    color: #f4f4f4;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    padding: 0px;
+    margin: 0px 0.5em 0.75em 0px;
+}
 /*Header*/
 header {
     background: rgb(42, 94, 66) url(https://www.sealcoating-joe.com/wp-content/uploads/2011/11/JOES-Website-Background-light-grey.jpg) center 0px;
@@ -43,6 +50,11 @@ header {
 .derp {
     position: relative;
     float: center;
+}
+.HeaderPic{
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 10px 10px 10px 10px;
 }
 /*Nav Bar*/
 #utilityMenu {
@@ -71,6 +83,24 @@ section div#panel{
     padding: 1.0em;
     background-color: #2A2441;
     border: #C53B6E;
+}
+.form {
+    margin: 10px 10px 10px 10px;
+    float: center;
+}
+.form input {
+    width: 175px;
+}
+.form textarea {
+    width: 500px;
+    height: 100px;
+}
+.form button {
+    float: center;
+    width: 500px;
+}
+.form #lala {
+    float: center;
 }
 /*Footer*/
 .clear {

@@ -1,0 +1,110 @@
+/*Common Elements*/
+.contentWrapper {
+    margin: 0 25px 0 25px;
+}
+body {
+    background: url(https://images.wallpaperscraft.com/image/forest_fog_trees_126479_1280x720.jpg) no-repeat center center fixed;
+    padding: 0;
+    margin: 0;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+h1 {
+    color: #2A2441;
+    font-size: 3.0em;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0;
+}
+h2 {
+    color: #C53B6E;
+    font-size: 1.7em;
+    padding: 0px;
+    margin: 0.5em 0 0.35em 0;
+}
+h3 {
+    color: #f4f4f4;
+    font-size: 1.8em;
+    padding: 0;
+    margin: 0.5em 0 0.27em 0;
+}
+p{
+    color: #f4f4f4;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    padding: 0px;
+    margin: 0px 0.5em 0.75em 0px;
+}
+/*Header*/
+header {
+    background: rgb(42, 94, 66) url(https://www.sealcoating-joe.com/wp-content/uploads/2011/11/JOES-Website-Background-light-grey.jpg) center 0px;
+}
+.derp {
+    position: relative;
+    float: center;
+}
+/*Nav Bar*/
+#utilityMenu {
+    float: right;
+}
+/*Side Bar Section*/
+section#sidebar {
+    width: 238px;
+    float: right;
+    position: relative;
+    display: block;
+    margin: 1.5em 0 3.0em 1.5em;
+    padding: 1.7em 0.5em 2.0em 1.7em;
+    border-left: #C53B6E solid 7px;
+    background-color: #2A2441;
+}
+/*Main Section*/
+section div#panelPos {
+    width: 100%;
+}
+section div#panel{
+    float: left;
+    position: relative;
+    width: 250px;
+    margin: 0 0.5em 2.0em 0.5em;
+    padding: 1.0em;
+    background-color: #2A2441;
+    border: #C53B6E;
+}
+/*Footer*/
+.clear {
+    clear:both;
+    font-size: 1%;
+}
+footer {
+    background-color: #2f4d02;
+    height: 25px;
+    font-size: 1.2em;
+    color: #D9B68F;
+    text-align: center;
+    padding: 1.5em 2.0em;
+}
+footer ul#menuFooter {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding: 0;
+}
+footer ul li {
+    display: inline-block;
+    padding: 0 0.7em 0 0;
+    margin: 0;
+}
+footer ul li::before {
+    content: "| ";
+    padding-right: 0.7em;
+}
+footer a, footer a:visited {
+    color: #f4f4f4;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #f4f4f4;
+    text-decoration: underline;
+}
